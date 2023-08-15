@@ -1,0 +1,330 @@
+[debug] [2023-08-11T11:02:45.071Z] ----------------------------------------------------------------------
+[debug] [2023-08-11T11:02:45.083Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dr. Bantayehu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-08-11T11:02:45.084Z] CLI Version:   12.4.7
+[debug] [2023-08-11T11:02:45.085Z] Platform:      win32
+[debug] [2023-08-11T11:02:45.085Z] Node Version:  v18.16.0
+[debug] [2023-08-11T11:02:45.303Z] Time:          Fri Aug 11 2023 14:02:45 GMT+0300 (East Africa Time)
+[debug] [2023-08-11T11:02:45.304Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-11T11:02:46.400Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-11T11:02:46.401Z] > authorizing via signed-in user (kulech51@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2023-08-11T11:02:46.421Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-08-11T11:02:46.422Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project e-clone-c3eef. This may result in unexpected behavior. 
+[debug] [2023-08-11T11:02:46.693Z] [hub] writing locator at C:\Users\DR8208~1.BAN\AppData\Local\Temp\hub-e-clone-c3eef.json
+[debug] [2023-08-11T11:02:46.803Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-08-11T11:02:46.804Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-08-11T11:02:46.804Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage\u001b[22m"}}
+[debug] [2023-08-11T11:02:46.811Z] defaultcredentials: writing to file C:\Users\Dr. Bantayehu\AppData\Roaming\firebase\kulech51_gmail_com_application_default_credentials.json
+[debug] [2023-08-11T11:02:47.303Z] Setting GAC to C:\Users\Dr. Bantayehu\AppData\Roaming\firebase\kulech51_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Dr. Bantayehu\\AppData\\Roaming\\firebase\\kulech51_gmail_com_application_default_credentials.json"}}
+[debug] [2023-08-11T11:02:47.310Z] > refreshing access token with scopes: []
+[debug] [2023-08-11T11:02:47.320Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-08-11T11:02:47.321Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-08-11T11:02:48.818Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-08-11T11:02:48.819Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-08-11T11:02:50.060Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-c3eef/adminSdkConfig [none]
+[debug] [2023-08-11T11:02:50.873Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-c3eef/adminSdkConfig 200
+[debug] [2023-08-11T11:02:50.874Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-c3eef/adminSdkConfig {"projectId":"e-clone-c3eef","storageBucket":"e-clone-c3eef.appspot.com"}
+[debug] [2023-08-11T11:02:51.573Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-08-11T11:02:51.573Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-08-11T11:02:51.574Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Dr. Bantayehu\\.cache\\firebase\\emulators\\ui-v1.11.7\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Dr. Bantayehu\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.7\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2023-08-11T11:02:54.287Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2023-08-11T11:02:54.288Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "C:\Users\Dr. Bantayehu\Desktop\project\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\Dr. Bantayehu\\Desktop\\project\\functions\" for Cloud Functions..."}}
+[debug] [2023-08-11T11:02:54.365Z] Validating nodejs source
+[debug] [2023-08-11T11:03:05.447Z] checkFunctionsSDKVersion was unable to fetch information from NPM Error: spawnSync C:\Windows\system32\cmd.exe ETIMEDOUT
+    at Object.spawnSync (node:internal/child_process:1110:20)
+    at Object.spawnSync (node:child_process:871:24)
+    at Function.spawnSync [as sync] (C:\Users\Dr. Bantayehu\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\index.js:26:23)
+    at Object.getLatestSDKVersion (C:\Users\Dr. Bantayehu\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js:54:25)
+    at Object.checkFunctionsSDKVersion (C:\Users\Dr. Bantayehu\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js:74:32)
+    at Delegate.validate (C:\Users\Dr. Bantayehu\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\index.js:84:20)
+    at FunctionsEmulator.discoverTriggers (C:\Users\Dr. Bantayehu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:296:35)
+    at async FunctionsEmulator.loadTriggers (C:\Users\Dr. Bantayehu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:325:34)
+    at async FunctionsEmulator.connect (C:\Users\Dr. Bantayehu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:262:13)
+    at async Object.startAll (C:\Users\Dr. Bantayehu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\controller.js:562:13)
+[debug] [2023-08-11T11:03:05.450Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-08-11T11:03:05.450Z] Building nodejs source
+[debug] [2023-08-11T11:03:05.452Z] Failed to find version of module node: reached end of search path C:\Users\Dr. Bantayehu\Desktop\project\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-08-11T11:03:05.457Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-08-11T11:03:05.814Z] Found firebase-functions binary at 'C:\Users\Dr. Bantayehu\Desktop\project\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-08-11T11:03:16.016Z] Failed to call quitquitquit. This often means the server failed to start request to http://localhost:8747/__/quitquitquit failed, reason: connect ECONNREFUSED 127.0.0.1:8747 {"message":"request to http://localhost:8747/__/quitquitquit failed, reason: connect ECONNREFUSED 127.0.0.1:8747","type":"system","errno":"ECONNREFUSED","code":"ECONNREFUSED"}
+[error] !!  functions: Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] Serving at port 8747
+
+[debug] [2023-08-11T23:55:17.463Z] ----------------------------------------------------------------------
+[debug] [2023-08-11T23:55:17.480Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dr. Bantayehu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-08-11T23:55:17.493Z] CLI Version:   12.4.7
+[debug] [2023-08-11T23:55:17.505Z] Platform:      win32
+[debug] [2023-08-11T23:55:17.507Z] Node Version:  v18.16.0
+[debug] [2023-08-11T23:55:17.521Z] Time:          Sat Aug 12 2023 02:55:17 GMT+0300 (East Africa Time)
+[debug] [2023-08-11T23:55:17.523Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-11T23:55:19.359Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-11T23:55:19.364Z] > authorizing via signed-in user (kulech51@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2023-08-11T23:55:19.488Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4002 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4002 instead."}}
+[debug] [2023-08-11T23:55:19.508Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4002},{"address":"::1","family":"IPv6","port":4002}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project e-clone-c3eef. This may result in unexpected behavior. 
+[debug] [2023-08-11T23:55:19.833Z] [hub] writing locator at C:\Users\DR8208~1.BAN\AppData\Local\Temp\hub-e-clone-c3eef.json
+[debug] [2023-08-11T23:55:20.228Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-08-11T23:55:20.229Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-08-11T23:55:20.229Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4002},{"address":"::1","family":"IPv6","port":4002}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage\u001b[22m"}}
+[debug] [2023-08-11T23:55:20.300Z] defaultcredentials: writing to file C:\Users\Dr. Bantayehu\AppData\Roaming\firebase\kulech51_gmail_com_application_default_credentials.json
+[debug] [2023-08-11T23:55:20.332Z] Setting GAC to C:\Users\Dr. Bantayehu\AppData\Roaming\firebase\kulech51_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Dr. Bantayehu\\AppData\\Roaming\\firebase\\kulech51_gmail_com_application_default_credentials.json"}}
+[debug] [2023-08-11T23:55:20.349Z] > refreshing access token with scopes: []
+[debug] [2023-08-11T23:55:20.372Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-08-11T23:55:20.372Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-08-11T23:55:21.504Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-08-11T23:55:21.505Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-08-11T23:55:22.740Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-c3eef/adminSdkConfig [none]
+[debug] [2023-08-11T23:55:23.889Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-c3eef/adminSdkConfig 200
+[debug] [2023-08-11T23:55:23.889Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-c3eef/adminSdkConfig {"projectId":"e-clone-c3eef","storageBucket":"e-clone-c3eef.appspot.com"}
+[debug] [2023-08-11T23:55:26.282Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-08-11T23:55:26.283Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-08-11T23:55:26.283Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Dr. Bantayehu\\.cache\\firebase\\emulators\\ui-v1.11.7\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Dr. Bantayehu\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.7\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2023-08-11T23:55:30.127Z] Web / API server started at 127.0.0.1:4002
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4002\n"}}
+[debug] [2023-08-11T23:55:30.129Z] Web / API server started at ::1:4002
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4002\n"}}
+[info] i  functions: Watching "C:\Users\Dr. Bantayehu\Desktop\project\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\Dr. Bantayehu\\Desktop\\project\\functions\" for Cloud Functions..."}}
+[debug] [2023-08-11T23:55:31.071Z] Validating nodejs source
+[debug] [2023-08-11T23:55:41.775Z] checkFunctionsSDKVersion was unable to fetch information from NPM Error: spawnSync C:\Windows\system32\cmd.exe ETIMEDOUT
+    at Object.spawnSync (node:internal/child_process:1110:20)
+    at Object.spawnSync (node:child_process:871:24)
+    at Function.spawnSync [as sync] (C:\Users\Dr. Bantayehu\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\index.js:26:23)
+    at Object.getLatestSDKVersion (C:\Users\Dr. Bantayehu\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js:54:25)
+    at Object.checkFunctionsSDKVersion (C:\Users\Dr. Bantayehu\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js:74:32)
+    at Delegate.validate (C:\Users\Dr. Bantayehu\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\index.js:84:20)
+    at FunctionsEmulator.discoverTriggers (C:\Users\Dr. Bantayehu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:296:35)
+    at async FunctionsEmulator.loadTriggers (C:\Users\Dr. Bantayehu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:325:34)
+    at async FunctionsEmulator.connect (C:\Users\Dr. Bantayehu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:262:13)
+    at async Object.startAll (C:\Users\Dr. Bantayehu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\controller.js:562:13)
+[debug] [2023-08-11T23:55:41.780Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-08-11T23:55:41.782Z] Building nodejs source
+[debug] [2023-08-11T23:55:41.784Z] Failed to find version of module node: reached end of search path C:\Users\Dr. Bantayehu\Desktop\project\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-08-11T23:55:41.792Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-08-11T23:55:41.900Z] Found firebase-functions binary at 'C:\Users\Dr. Bantayehu\Desktop\project\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-08-11T23:55:52.187Z] Failed to call quitquitquit. This often means the server failed to start request to http://localhost:8943/__/quitquitquit failed, reason: connect ECONNREFUSED 127.0.0.1:8943 {"message":"request to http://localhost:8943/__/quitquitquit failed, reason: connect ECONNREFUSED 127.0.0.1:8943","type":"system","errno":"ECONNREFUSED","code":"ECONNREFUSED"}
+[info] Serving at port 8943
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4002/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4002/functions │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2023-08-11T23:57:57.154Z] [work-queue] {"queuedWork":["/e-clone-c3eef/us-central1/api/payments/create-2023-08-11T23:57:57.154Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-11T23:57:57.156Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-clone-c3eef/us-central1/api/payments/create-2023-08-11T23:57:57.154Z"],"workRunningCount":1}
+[debug] [2023-08-11T23:57:57.167Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-11T23:57:57.171Z] [work-queue] {"queuedWork":["/e-clone-c3eef/us-central1/api/payments/create-2023-08-11T23:57:57.171Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-11T23:57:57.172Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-clone-c3eef/us-central1/api/payments/create-2023-08-11T23:57:57.171Z"],"workRunningCount":1}
+[debug] [2023-08-11T23:57:57.173Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-12T00:00:00.444Z] File C:\Users\Dr. Bantayehu\Desktop\project\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Dr. Bantayehu\\Desktop\\project\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-08-12T00:00:01.463Z] Validating nodejs source
+[debug] [2023-08-12T00:00:12.260Z] checkFunctionsSDKVersion was unable to fetch information from NPM Error: spawnSync C:\Windows\system32\cmd.exe ETIMEDOUT
+    at Object.spawnSync (node:internal/child_process:1110:20)
+    at Object.spawnSync (node:child_process:871:24)
+    at Function.spawnSync [as sync] (C:\Users\Dr. Bantayehu\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\index.js:26:23)
+    at Object.getLatestSDKVersion (C:\Users\Dr. Bantayehu\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js:54:25)
+    at Object.checkFunctionsSDKVersion (C:\Users\Dr. Bantayehu\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js:74:32)
+    at Delegate.validate (C:\Users\Dr. Bantayehu\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\index.js:84:20)
+    at FunctionsEmulator.discoverTriggers (C:\Users\Dr. Bantayehu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:296:35)
+    at async FunctionsEmulator.loadTriggers (C:\Users\Dr. Bantayehu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:325:34)
+[debug] [2023-08-12T00:00:12.391Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-08-12T00:00:12.393Z] Building nodejs source
+[debug] [2023-08-12T00:00:12.396Z] Failed to find version of module node: reached end of search path C:\Users\Dr. Bantayehu\Desktop\project\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-08-12T00:00:12.495Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-08-12T00:00:12.683Z] Found firebase-functions binary at 'C:\Users\Dr. Bantayehu\Desktop\project\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-08-12T00:00:15.665Z] [work-queue] {"queuedWork":["/e-clone-c3eef/us-central1/api/payments/create-2023-08-12T00:00:15.665Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-12T00:00:15.666Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-clone-c3eef/us-central1/api/payments/create-2023-08-12T00:00:15.665Z"],"workRunningCount":1}
+[debug] [2023-08-12T00:00:15.678Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-12T00:00:15.694Z] [work-queue] {"queuedWork":["/e-clone-c3eef/us-central1/api/payments/create-2023-08-12T00:00:15.694Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-12T00:00:15.696Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-clone-c3eef/us-central1/api/payments/create-2023-08-12T00:00:15.694Z"],"workRunningCount":1}
+[debug] [2023-08-12T00:00:15.706Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-12T00:00:23.010Z] Failed to call quitquitquit. This often means the server failed to start request to http://localhost:8560/__/quitquitquit failed, reason: connect ECONNREFUSED 127.0.0.1:8560 {"message":"request to http://localhost:8560/__/quitquitquit failed, reason: connect ECONNREFUSED 127.0.0.1:8560","type":"system","errno":"ECONNREFUSED","code":"ECONNREFUSED"}
+[error] !!  functions: Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification"}}
+[info] Serving at port 8560
+
+[debug] [2023-08-12T00:02:53.292Z] [work-queue] {"queuedWork":["/e-clone-c3eef/us-central1/api/payments/create-2023-08-12T00:02:53.292Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-12T00:02:53.295Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-clone-c3eef/us-central1/api/payments/create-2023-08-12T00:02:53.292Z"],"workRunningCount":1}
+[debug] [2023-08-12T00:02:53.307Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-12T00:26:02.126Z] File C:\Users\Dr. Bantayehu\Desktop\project\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Dr. Bantayehu\\Desktop\\project\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-08-12T00:26:02.617Z] File C:\Users\Dr. Bantayehu\Desktop\project\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Dr. Bantayehu\\Desktop\\project\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-08-12T00:26:03.719Z] Validating nodejs source
+[debug] [2023-08-12T00:26:15.030Z] checkFunctionsSDKVersion was unable to fetch information from NPM Error: spawnSync C:\Windows\system32\cmd.exe ETIMEDOUT
+    at Object.spawnSync (node:internal/child_process:1110:20)
+    at Object.spawnSync (node:child_process:871:24)
+    at Function.spawnSync [as sync] (C:\Users\Dr. Bantayehu\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\index.js:26:23)
+    at Object.getLatestSDKVersion (C:\Users\Dr. Bantayehu\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js:54:25)
+    at Object.checkFunctionsSDKVersion (C:\Users\Dr. Bantayehu\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js:74:32)
+    at Delegate.validate (C:\Users\Dr. Bantayehu\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\index.js:84:20)
+    at FunctionsEmulator.discoverTriggers (C:\Users\Dr. Bantayehu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:296:35)
+    at async FunctionsEmulator.loadTriggers (C:\Users\Dr. Bantayehu\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:325:34)
+[debug] [2023-08-12T00:26:15.046Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-08-12T00:26:15.047Z] Building nodejs source
+[debug] [2023-08-12T00:26:15.048Z] Failed to find version of module node: reached end of search path C:\Users\Dr. Bantayehu\Desktop\project\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-08-12T00:26:16.583Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-08-12T00:26:16.957Z] Found firebase-functions binary at 'C:\Users\Dr. Bantayehu\Desktop\project\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-08-12T00:26:24.647Z] Received signal SIGHUP 1
+[info]  
+[info] i  emulators: Received SIGHUP for the first time. Starting a clean shutdown. 
+[info] i  emulators: Please wait for a clean shutdown or send the SIGHUP signal again to stop right now. 
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[info] i  ui: Stopping Emulator UI {"metadata":{"emulator":{"name":"ui"},"message":"Stopping Emulator UI"}}
+[warn] !  Emulator UI has exited upon receiving signal: SIGINT 
+[info] i  functions: Stopping Functions Emulator {"metadata":{"emulator":{"name":"functions"},"message":"Stopping Functions Emulator"}}
+[info] i  eventarc: Stopping Eventarc Emulator {"metadata":{"emulator":{"name":"eventarc"},"message":"Stopping Eventarc Emulator"}}
+[info] i  hub: Stopping emulator hub {"metadata":{"emulator":{"name":"hub"},"message":"Stopping emulator hub"}}
+[info] i  logging: Stopping Logging Emulator {"metadata":{"emulator":{"name":"logging"},"message":"Stopping Logging Emulator"}}
